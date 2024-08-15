@@ -11,6 +11,12 @@ A simple and elegant Todo List application built with Svelte. This app allows us
 - **Clear All Tasks**: Remove all tasks from the list.
 - **Responsive Design**: Adapts to fit any screen size.
 
+## Screenshots
+
+### Main Interface
+
+![Main Interface](./static/screenshot1.png) 
+![Main Interface](./static/screenshot2.png) 
 ## Installation
 
 To run this project locally, follow these steps:
