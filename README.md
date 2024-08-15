@@ -1,38 +1,63 @@
-# create-svelte
+# Todo List Application
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A simple and elegant Todo List application built with Svelte. This app allows users to manage tasks with options to add, mark as done, edit, and clear tasks.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Add New Tasks**: Input a task and press Enter or click "Add" to add it to the list.
+- **Mark Tasks as Done**: Check the checkbox next to a task to mark it as completed.
+- **Edit Tasks**: Click on a task to edit its description.
+- **Clear Completed Tasks**: Remove only the tasks that are marked as done.
+- **Clear All Tasks**: Remove all tasks from the list.
+- **Responsive Design**: Adapts to fit any screen size.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To run this project locally, follow these steps:
 
-## Developing
+### Prerequisites
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-```bash
-npm run dev
+### Setup
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. **Clone the Repository**
 
-## Building
+    ```bash
+    git clone https://github.com/your-username/todo-list-app.git
+    cd todo-list-app
+    ```
 
-To create a production version of your app:
+2. **Install Dependencies**
 
-```bash
-npm run build
-```
+    ```bash
+    npm install
+    ```
 
-You can preview the production build with `npm run preview`.
+3. **Run the Application**
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    ```bash
+    npm run dev
+    ```
+
+    Open your browser and navigate to `http://localhost:5000` to view the application.
+
+## Development
+
+Feel free to contribute to this project by submitting issues or pull requests.
+
+### Running Tests
+
+Currently, this project does not include automated tests. Consider adding tests for better code coverage.
+
+## Contributing
+
+If you would like to contribute to the project, please fork the repository and submit a pull request. Ensure that your code adheres to the coding style of the project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Svelte**: For providing a powerful and simple framework for building user interfaces.
